@@ -8,7 +8,7 @@
 Summary:	POSIX::strftime::Compiler - GNU C library compatible strftime for loggers and servers
 Name:		perl-POSIX-strftime-Compiler
 Version:	0.42
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -55,6 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%{perl_vendorlib}/POSIX/strftime/*.pm
-%{_mandir}/man3/*
+%{perl_vendorlib}/POSIX/strftime
+%{_mandir}/man3/POSIX::strftime::Compiler.3*
 %{_examplesdir}/%{name}-%{version}
