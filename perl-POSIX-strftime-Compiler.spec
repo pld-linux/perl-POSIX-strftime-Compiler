@@ -4,7 +4,6 @@
 #
 %define		pdir	POSIX
 %define		pnam	strftime-Compiler
-%include	/usr/lib/rpm/macros.perl
 Summary:	POSIX::strftime::Compiler - GNU C library compatible strftime for loggers and servers
 Name:		perl-POSIX-strftime-Compiler
 Version:	0.42
